@@ -8,8 +8,8 @@ import { IoLogOutOutline } from "react-icons/io5";
 //internal import
 import sidebar from "@/routes/sidebar";
 // import SidebarSubMenu from "SidebarSubMenu";
-import logoDark from "@/assets/img/logo/lg.png";
-import logoLight from "@/assets/img/logo/lg.png";
+import logoDark from "@/assets/img/logo/logo.png";
+import logoLight from "@/assets/img/logo/logo.png";
 import { AdminContext } from "@/context/AdminContext";
 import SidebarSubMenu from "@/components/sidebar/SidebarSubMenu";
 import useGetCData from "@/hooks/useGetCData";
@@ -50,7 +50,7 @@ const SidebarContent = () => {
     .filter(Boolean);
 
   return (
-    <div className="py-4 text-gray-500 dark:text-gray-400">
+    <div className="pb-4 text-gray-500 dark:text-gray-400">
       <a className=" text-gray-900 dark:text-gray-200" href="/dashboard">
         {mode === "dark" ? (
           <img src={logoLight} alt="kachabazar" width="135" className="pl-6" />
