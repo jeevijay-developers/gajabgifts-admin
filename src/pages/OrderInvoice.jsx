@@ -122,8 +122,8 @@ const OrderInvoice = () => {
                 <p className="text-sm text-gray-500 dark:text-gray-400 mt-2">
                   {globalSetting?.address} <br />
                   {globalSetting?.contact} <br />{" "}
-                  <span> {globalSetting?.email} </span> <br />
-                  {globalSetting?.website}
+                  {/* <span> {globalSetting?.email} </span> <br /> */}
+                  {/* {globalSetting?.website} */}
                 </p>
               </div>
             </div>
