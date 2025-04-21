@@ -239,8 +239,8 @@ const OrderInvoice = () => {
         )}
       </div>
       {!loading && !error && (
-        <div className="mb-4 mt-3 flex md:flex-row flex-col items-center justify-between">
-          <PDFDownloadLink
+        <div className="mb-4 mt-3 flex md:flex-row flex-col items-center justify-end">
+          {/* <PDFDownloadLink
             document={
               <InvoiceForDownload
                 t={t}
@@ -264,7 +264,7 @@ const OrderInvoice = () => {
                 </button>
               )
             }
-          </PDFDownloadLink>
+          </PDFDownloadLink> */}
 
           <div className="flex md:mt-0 mt-3 gap-4 md:w-auto w-full">
             {globalSetting?.email_to_customer && (
